@@ -1,0 +1,134 @@
+
+img{
+    float:left;
+    margin:0;
+    padding:0;
+    width: 100px;
+    height: 100px;
+}
+
+div.right {
+    list-style-type:none;
+    float: right;
+}
+div.middle{
+    margin-right:0;
+    width: 1000px;
+    border-left-width: 10px;
+}
+
+
+li {
+    display:inline;
+    padding-right: 15px;
+}
+
+
+div.right a:link, div.middle a:link{
+    color:black;
+    text-decoration:none;
+}
+
+div.right a:hover, div.middle a:hover{
+    text-decoration: underline;
+}
+
+#search{
+     border-radius: 20px;
+     -webkit-appearance: textfield;
+      width:55%;
+      height: 35px;
+      text-indent: 5px;
+      margin-top: 30px;
+      margin-left: 10px;
+      font-size:18px;
+      color:Black;
+     }
+
+  p.first-para {
+     font-family:'Times New Roman', Times, serif;
+     border-radius:10px;
+     border:1px solid lightgray;
+     width:45%;
+     height: 150px;
+     margin-left:120px;
+     margin-bottom:0;
+     padding: 10px;
+     }
+a:link{
+      color:blue;
+     text-decoration: none;
+     }
+a:hover{
+  text-decoration: underline;
+    }
+
+
+
+
+div.extra{
+    margin-right: 150px;
+    margin-left: 480px;
+}
+div.extra a:link{
+    color:gray;
+    text-decoration: none;
+    font-size:14px;
+}
+div.extra a:hover{
+    text-decoration:  underline;
+}
+p.final{
+    color: #5d5b5b;
+    font-size:16px;
+    padding-left: 120px;
+ width: 55%;
+}
+.last-box{
+    margin-left: 120px;
+    padding:0;
+    border:1px solid gray;
+    width: 55%;
+    border-radius:20px;
+}
+.grid1{
+    display: grid;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width:55%;
+    height:60%;
+    margin-left:120px;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4,25%);
+    }
+    
+    .items1{
+        border-bottom: 1px solid gray;
+        margin:0;
+        padding:10px;
+    }
+    .grid2{
+        display: inline-grid;
+        border-radius: 10px;
+        width:100%;
+        height:60%;
+        margin-left:0;
+        grid-template-columns: repeat(5,20%);
+        grid-template-rows: 100%;
+        }
+        
+        .items2{
+            margin:0;
+            padding:10px;
+        }
+        .text{
+            display: inline;
+            padding-right:60px;
+            padding-left:10px;
+        }
+
+        .text a:link{
+            text-decoration: none;
+            color:blue;
+        
+        }
